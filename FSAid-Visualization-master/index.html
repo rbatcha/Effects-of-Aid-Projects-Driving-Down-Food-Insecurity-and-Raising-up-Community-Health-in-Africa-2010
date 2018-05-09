@@ -1,0 +1,101 @@
+<!doctype html>
+<html class="no-js" lang="">
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Effects of Aid Projects Driving Down Food Insecurity and Raising up Community Health in Africa (2010-2017)</title>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+    <link rel= "stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/colorbrewer.css">
+</head>
+<body>
+	<header>
+		<H1 class = "title">Effects of Aid Projects Driving Down Food Insecurity and Raising up Community Health in Africa (2010-2017)</H1>
+       
+	</header>
+	<div class="container">
+        
+	  <ul class="nav nav-tabs nav-justified">
+   	    <li class="active"><a data-toggle="tab" href="#home">About Food Insecurity and Aid Project Effects ! </a></li>
+        <li><a data-toggle="tab" href="#visualization">Map Visualization</a></li>
+        </ul>
+	</div>
+
+
+<div class="tab-content info">
+	<div id="home" class="tab-pane fade in active">
+		<div>	
+			<h3>Prevalence of food insecurity</h3><p>Food insecurity is defined by the UN FAO as the "situation when people lack secure access to sufficient amounts of safe and nutritious food for normal growth and development and an active and healthy life."14 Food insecurity can be caused by a number of factors, including the unavailability of food, unaffordable food, and unequal distribution of food between household members. Food insecurity is one of the major causes of poor nutrition.Food insecurity is measured by the FAO using its Food Insecurity Experience Scale (FIES) global reference scale. Food insecurity can be based on inadequate quality or quantity of food. Moderate food insecurity is generally associated with the inability to regularly eat healthy, nutritious diets. High prevalence of moderate food insecurity is therefore an important indicator of poor dietary quality, and the development of health outcomes such as micronutrient deficiencies.  Severe food insecurity is more strongly related to insufficient quantity of food (energy) and therefore strongly related to undernourishment or hunger.</p><p><b>Globally, around 690 million are severely food insecure, with 48 percent in Africa.</b>
+            Over the last few years (from 2014 to 2016), trends across Africa have changed notably and the total number of those severely food insecure has increased by 40-45 million. <b>Moderate food security includes those who struggle or worry about the ability to access or afford a healthy, nutritious balanced diet, not only those who struggle to meet their energy needs. </b> Globally, nearly 1.8 billion were food insecure in 2015. Of this number, the greatest number are in Sub-Saharan Africa.</p> 
+		</div>
+		
+		<div>
+            <img src="images/finsAid_vis.png" align="right" HSPACE="30" VSPACE="30" alt="foodinsecurity and nutrition deficiency" style="width:304px;height:248px;">
+			<h3>Food Insecurity and Nutrition Deficiency</h3>
+			<p>Food insecurity and malnutrition give rise to many consequences for health and development, with mothers and children most vulnerable to the devastating effects. Malnourished mothers are at a greater risk of dying at childbirth and of delivering low-birth-weight babies who fail to survive infancy. Undernourished babies who make it through infancy often suffer stunting that cripples and shortens their lives.Malnutrition is a direct effect of food insecurity. Malnutrition is the underlying cause of death of more than 2.6 million children each year, a third of under-five deaths, and a third of total child deaths worldwide. It is a silent killer that is under-reported, under-addressed and consequently under-prioritized. </p>
+
+			<h3>Aid Projects and Community Revival.</h3> 
+            <p>Compounding the problem of cuts in aid funding is the fact that existing aid to many African countries has not been as eﬀ ective as it should be in promoting development in the region. For African countries to improve their development prospects and to achieve and sustain long-term growth, it is crucial that both donors and recipient governments ensure that every dollar of development aid is used eﬀ ectively.</p>
+		</div>
+        
+        <div>
+         <h4>SOURCES:</h4>
+			 <h6>
+         <a href="https://ourworldindata.org/hunger-and-undernourishment#prevalence-of-food-insecurity"  target="_blank">
+          Source: Ourworldindata - Prevalence of food insecurity in Africa
+                </a>
+            </h6>
+             <h6>
+         <a href="https://ourworldindata.org/hunger-and-undernourishment#correlation-of-poverty-and-undernourishment"  target="_blank">
+          Source: Ourworldindata - Food Insecurity and Prevalence of undernurishment
+                </a>
+            </h6>
+             <h6>
+         <a href="https://foodsecurity.ngoaidmap.org/"  target="_blank">
+          Source: Aid projects supporting the alleviation of food insecurity in Africa
+                </a>
+            </h6>
+
+		
+		</div>
+	</div>
+
+	
+	<div id="visualization" class="tab-pane fade in active">
+	
+	<div id="map"><div id ="menu"> </div></div>
+                 
+		<div id="legend"></div>
+		<div class="container example_div" id = "data">
+	        <div class="row">
+	            <div class="col-md-9" id = "choropleth"></div>
+	            <div class="col-md-3" id = "infolabel"></div>
+			</div>
+		</div>	
+		
+	</div>
+</div>
+    
+
+	<!-- Load JS libraries -->
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/queue.min.js"></script>
+	<script src="js/topojson.js"></script>
+	<script src="js/d3.min.js"></script>
+	<script src="js/colorbrewer.js"></script>
+
+	<script src="js/d3.tip.js"></script>	
+ 
+	<!-- Choropleth -->
+	<script src="js/vis-choropleth.js"></script>
+
+	
+</body>
+</html>
